@@ -28,3 +28,21 @@ A generic, doubly linked list library for C++.
 - Get the current size of the list.
 
 ## Usage Example
+#include "clsDbLinkedList.h" #include <iostream>
+int main() { clsDbLinkedList<int> list;
+list.InsertAtBeginning(3);
+list.InsertAtEnd(5);
+list.InsertAtBeginning(1);
+
+list.PrintList(); // Output: 1 3 5
+
+list.DeleteNode(3);
+list.PrintList(); // Output: 1 5
+
+std::cout << "Size: " << list.Size() << std::endl; // Output: 2
+
+list.Reverse();
+list.PrintList(); // Output: 5 1
+
+return 0;
+}
