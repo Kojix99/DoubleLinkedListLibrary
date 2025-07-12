@@ -59,8 +59,20 @@ All operations are implemented with clarity and safety in mind.
 
 ---
 
+## ⏳ Development Timeline
+
+| Date       | Task                                | Status   |
+|------------|-------------------------------------|----------|
+| 2025-07-05 | Project started                     | ✅ Done  |
+| 2025-07-06 | Core insert/delete/search methods   | ✅ Done  |
+| 2025-07-07 | Index-based access and update       | ✅ Done  |
+| 2025-07-08 | Reverse and clear methods           | ✅ Done  |
+| 2025-07-12 | Final review and documentation      | ✅ Done  |
+
+---
+
 ## 📌 Usage Example
-'''C++
+'''Cpp
 
 #include "clsDbLinkedList.h" #include <iostream>
 int main() { clsDbLinkedList<int> list;
