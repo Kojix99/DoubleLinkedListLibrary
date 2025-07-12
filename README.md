@@ -72,8 +72,7 @@ All operations are implemented with clarity and safety in mind.
 ---
 
 ## 📌 Usage Example
-'''Cpp
-
+```cpp
 #include "clsDbLinkedList.h" #include <iostream>
 int main() { clsDbLinkedList<int> list;
 list.InsertAtBeginning(3);
